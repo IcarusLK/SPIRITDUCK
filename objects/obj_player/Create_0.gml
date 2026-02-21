@@ -23,7 +23,7 @@ moveY = 0;
 
 
 //variaveis auxiliares
-
+vidas = 3;
 indica_estado = 0; 
 
 //pegando colisões
@@ -150,6 +150,30 @@ atirar = function()
 	
 		
 }
+
+
+//morrendo
+
+morrendo = function()
+{
+	if ( vidas <= 0 )
+	{
+		instance_destroy()
+		
+	}; 
+	
+}
+
+#region efeitos e outros
+
+leva_dano = function()
+{
+	
+	
+}
+
+
+#endregion 
 
 
 

@@ -2,8 +2,11 @@
 
 
 
-//chamando minha função 
+//chamando minha função. 
 control()
 
-//executando meu estado
+//executando meu estado.
 estado()
+
+//vendo quando morro.
+morrendo();

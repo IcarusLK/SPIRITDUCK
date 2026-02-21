@@ -9,7 +9,7 @@ minha_vel          = 1
 tempo_para_atacar  = 15;
 timer              = 0;
 tiro               = 0;
-velocidade_tiro    = random_range(1,3);
+velocidade_tiro    = random_range(2,4);
 meu_alvo           = obj_player;
 
 
@@ -22,7 +22,7 @@ timer_para_voltar_tiro = 0;
 
 //os meus estatus :
 vida_oni    = 1;
-ataque_oni  = 0.5;
+ataque_oni  = 1;
 
 //chance de dropar alimento para recuperar vida :
 drop = choose(3,7)
@@ -140,10 +140,35 @@ machina = function()
 		   image_speed = 0;
 		   image_index = 1;
 		  
-		    olho_de_oni();	  
+		    olho_de_oni();	
+
+//se o player morreu, isto é, não existe mais, eu vazo			
+			if (!instance_exists(meu_alvo))
+			{
+				estado = "vazando"
+			}
 		  
-	       break;
-	  	  
+		   break;
+
+//se o player morreu eu vazo, volto para onde vim	  	  
+		  case "vazando" : 
+
+
+//voltando meu sprite!		  
+		  image_index = 0;
+		  image_speed = 0;
+		  
+		  if (xstart <= 6)
+		  {
+			  speed = - minha_vel
+		  }
+		  
+		   else if (xstart >= 382)
+		  {
+			  speed = + minha_vel
+		  }
+		 break;  
+		  
 	  }//fecha o switch
 	  
 	

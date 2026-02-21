@@ -6,10 +6,19 @@
 
 segue_player = function()
 {
-	 x = obj_player.x + 25
-	 y = obj_player.y + 3
-		
-}
+//se o player existe eu sigo ele
+	 if (instance_exists(obj_player))
+	{
+		x = obj_player.x + 25
+	    y = obj_player.y + 3
+	}	
+
+//se o player morre eu morro.	
+	else if (!instance_exists(obj_player))
+	{		
+		 instance_destroy()
+	}
+}   
 
 minha_direcao = function()
 {
