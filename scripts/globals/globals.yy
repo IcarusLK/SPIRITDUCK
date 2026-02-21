@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"globals",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"globals",
+  "parent":{
+    "name":"SPIRITDUCK",
+    "path":"SPIRITDUCK.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
