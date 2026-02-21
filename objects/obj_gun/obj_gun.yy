@@ -10,8 +10,8 @@
   "name":"obj_gun",
   "overriddenProperties":[],
   "parent":{
-    "name":"SPIRITDUCK",
-    "path":"SPIRITDUCK.yyp",
+    "name":"OBJECTS 01",
+    "path":"folders/OBJECTS/OBJECTS 01.yy",
   },
   "parentObjectId":null,
   "persistent":false,

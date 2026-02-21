@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"globals",
+  "%Name":"funcs",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"globals",
+  "name":"funcs",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

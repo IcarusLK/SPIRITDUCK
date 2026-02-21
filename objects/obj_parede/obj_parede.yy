@@ -6,8 +6,8 @@
   "name":"obj_parede",
   "overriddenProperties":[],
   "parent":{
-    "name":"SPIRITDUCK",
-    "path":"SPIRITDUCK.yyp",
+    "name":"OBJECTS 02 AUX",
+    "path":"folders/OBJECTS/OBJECTS 02 AUX.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gerador_right",
+  "%Name":"obj_timer_room01",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gerador_right",
+  "name":"obj_timer_room01",
   "overriddenProperties":[],
   "parent":{
-    "name":"GERADORES",
-    "path":"folders/OBJECTS/GERADORES.yy",
+    "name":"TIMERS",
+    "path":"folders/OBJECTS/TIMERS.yy",
   },
   "parentObjectId":null,
   "persistent":false,

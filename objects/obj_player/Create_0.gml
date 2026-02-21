@@ -153,7 +153,6 @@ atirar = function()
 
 
 
-
 //Aqui eu irei executar os meus estados 
 //começando no idle
 

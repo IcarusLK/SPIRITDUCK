@@ -1,6 +1,7 @@
 
 
 //iniciando o inimigo 1!
+//randomizando as coisas
 randomise()
 
 //iniciando váriaveis
@@ -16,8 +17,17 @@ meu_alvo           = obj_player;
 tempo_para_tiro        = choose(10,15)
 timer_tempo_tiro       = 0;
 atirar                 = true;
-tempo_para_voltar_tiro = 25;
+tempo_para_voltar_tiro = 37;
 timer_para_voltar_tiro = 0;
+
+//os meus estatus :
+vida_oni    = 1;
+ataque_oni  = 0.5;
+
+//chance de dropar alimento para recuperar vida :
+drop = choose(3,7)
+
+
 
 //iniciando estado
 estado = "way"
@@ -30,9 +40,9 @@ olho_de_oni = function()
 {
 
 // se posso atirar eu atiro	 
- if ( atirar ) 
+ if ( atirar and instance_exists(meu_alvo)) 
    {
-	 tiro = instance_create_layer(x,y+5,layer,obj_olhos_de_oni_tiro)
+	 tiro = instance_create_layer(x,y+5,"Inst_Inimigos",obj_olhos_de_oni_tiro)
 	 tiro.speed = velocidade_tiro
 	
 //avisando a direção do meu tiro e seu angulo 
@@ -79,8 +89,9 @@ machina = function()
 		  image_speed = 0;
 		  image_index = 0;
 //iniciando timer para atacar
-      timer += 0.1
-
+         timer += 0.5
+            
+		   
  
 		  if (xstart <= 6)
 		  {
@@ -129,10 +140,10 @@ machina = function()
 		   image_speed = 0;
 		   image_index = 1;
 		  
-		    olho_de_oni();
+		    olho_de_oni();	  
 		  
 	       break;
-	  
+	  	  
 	  }//fecha o switch
 	  
 	
@@ -142,14 +153,23 @@ machina = function()
 #endregion 
 
 
+morrendo = function()
+{
+	
+			if ( vida_oni <= 0 )
+		{
 
-
-
-
-
-//avisando que foi criado
-//show_message("fui criado!")
-
+//me destruíndo 	   
+	    instance_destroy()
+//droppando algo
+/*	     if ( drop == 7 )
+	     {
+		   show_message("maça!")
+	     }*/
+			
+	    }; 
+	
+}
 
 
 

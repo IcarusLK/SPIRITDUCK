@@ -8,8 +8,8 @@
   "name":"obj_olhos_de_oni_tiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"SPIRITDUCK",
-    "path":"SPIRITDUCK.yyp",
+    "name":"Ataques_Inimigos",
+    "path":"folders/OBJECTS/Ataques_Inimigos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

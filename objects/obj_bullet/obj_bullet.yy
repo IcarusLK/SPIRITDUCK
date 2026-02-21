@@ -6,8 +6,8 @@
   "name":"obj_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"SPRITES 01",
-    "path":"folders/SPRITES/SPRITES 01.yy",
+    "name":"OBJECTS 01",
+    "path":"folders/OBJECTS/OBJECTS 01.yy",
   },
   "parentObjectId":null,
   "persistent":false,
