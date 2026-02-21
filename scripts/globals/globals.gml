@@ -20,6 +20,9 @@ global.olhinhos_de_oni = 0;
 global.timer_room1   = 50; // necessário é 50 segundos com os olhinhos de onis
 
 
+//fases espirituais 
+global.fase1 = false;
+
 
 
 

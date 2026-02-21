@@ -187,10 +187,11 @@ morrendo = function()
 //me destruíndo 	   
 	    instance_destroy()
 //droppando algo
-/*	     if ( drop == 7 )
+	     if ( drop == 7 )
 	     {
-		   show_message("maça!")
-	     }*/
+//criando uma maca			 
+		   instance_create_depth(x,y,1,obj_maca)
+	     }
 			
 	    }; 
 	

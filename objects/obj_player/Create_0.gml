@@ -24,6 +24,11 @@ moveY = 0;
 
 //variaveis auxiliares
 vidas = 3;
+posso_levar_dano = true;
+tempo_para_dano  = 10;
+timer_para_dano  = 0;
+
+
 indica_estado = 0; 
 
 //pegando colisões
@@ -164,13 +169,38 @@ morrendo = function()
 	
 }
 
-#region efeitos e outros
-
-leva_dano = function()
+leva_dano = function(valor)
 {
-	
+	  
+	  if (posso_levar_dano)
+	  {
+		  vidas -= valor
+		  posso_levar_dano = false;
+	  }
 	
 }
+
+volta_dano = function()
+{
+	if ( posso_levar_dano == false )
+	{
+		timer_para_dano += 0.5;
+		
+	}
+	
+	if (timer_para_dano >= tempo_para_dano)
+	{
+		timer_para_dano = 0;
+		posso_levar_dano = true;
+	}
+	
+}
+
+
+
+#region efeitos e outros
+
+
 
 
 #endregion 

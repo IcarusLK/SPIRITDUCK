@@ -10,3 +10,6 @@ estado()
 
 //vendo quando morro.
 morrendo();
+
+//tempo de cooldown
+volta_dano();
