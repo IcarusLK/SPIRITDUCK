@@ -23,7 +23,7 @@ moveY = 0;
 
 
 //variaveis auxiliares
-vidas = 3;
+global.playervidas = 3
 posso_levar_dano = true;
 tempo_para_dano  = 10;
 timer_para_dano  = 0;
@@ -161,7 +161,7 @@ atirar = function()
 
 morrendo = function()
 {
-	if ( vidas <= 0 )
+	if ( global.playervidas <= 0 )
 	{
 		instance_destroy()
 		
@@ -174,7 +174,7 @@ leva_dano = function(valor)
 	  
 	  if (posso_levar_dano)
 	  {
-		  vidas -= valor
+		  global.playervidas -= valor
 		  posso_levar_dano = false;
 	  }
 	
@@ -199,6 +199,7 @@ volta_dano = function()
 
 
 #region efeitos e outros
+
 
 
 

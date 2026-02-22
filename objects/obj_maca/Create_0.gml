@@ -7,8 +7,8 @@ image_yscale = image_xscale
 
 
 estado = "desce"
-//efeito de subir!
 
+//efeito de subir! Para um melhor Game Feel 
 efeito_sobe_desce = function()
 {
 	

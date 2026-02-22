@@ -6,7 +6,7 @@
 
 if  ( global.timer_room1 <= 0 )
 {
-	instance_destroy();
+	  instance_destroy();
 	
 }
 

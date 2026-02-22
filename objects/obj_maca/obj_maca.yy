@@ -10,8 +10,8 @@
   "name":"obj_maca",
   "overriddenProperties":[],
   "parent":{
-    "name":"SPIRITDUCK",
-    "path":"SPIRITDUCK.yyp",
+    "name":"ITENS",
+    "path":"folders/OBJECTS/ITENS.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -19,6 +19,7 @@ if ( global.timer_room1 <= 0 and (!instance_exists(obj_inimigo_01)) )
    {
 //vamos começar a fase espiritual 1!	 
 	 global.fase1 = true;
+	 global.comecar = false;
 	 
    }
 }

@@ -1,20 +1,21 @@
 
 
-//iniciando o inimigo 1!
+// so copiei o codigo mesmo
+//iniciando o espirito do inimigo 1
 //randomizando as coisas
 randomise()
 
 //iniciando váriaveis
-minha_vel          = 1
+minha_vel          = 2
 tempo_para_atacar  = 15;
 timer              = 0;
 tiro               = 0;
-velocidade_tiro    = choose(2,2,2,3)
+velocidade_tiro    = choose(2,2,3)
 meu_alvo           = obj_player;
 
 
 //variaveis para o segundo estado
-tempo_para_tiro        = choose(10,15)
+tempo_para_tiro        = choose(15,17)
 timer_tempo_tiro       = 0;
 atirar                 = true;
 tempo_para_voltar_tiro = 37;
@@ -26,11 +27,11 @@ y_escolhe = choose(52,224)
 
 
 //os meus estatus :
-vida_oni    = 1;
+vida_oni    = 2;
 ataque_oni  = 1;
 
 //chance de dropar alimento para recuperar vida :
-drop = choose(1,2,4,7,10)
+ drop = choose(1,2,4,7,7,10)
 
 
 
@@ -47,7 +48,7 @@ olho_de_oni = function()
 // se posso atirar eu atiro	 
  if ( atirar and instance_exists(meu_alvo)) 
    {
-	   if  ( (distance_to_object(meu_alvo)) <= 100)
+	   if  ( (distance_to_object(meu_alvo)) <= 130)
 	   {
 	   
 	 tiro = instance_create_layer(x,y+5,"Inst_Inimigos",obj_olhos_de_oni_tiro)
@@ -206,13 +207,6 @@ morrendo = function()
 	    }; 
 	
 }
-
-
-
-
-
-
-
 
 
 

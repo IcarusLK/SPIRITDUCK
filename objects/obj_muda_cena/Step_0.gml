@@ -1,7 +1,12 @@
 
 
+//indo para a fase dois
  if (global.fase1 == true)
-	 {
-		 show_message("ESPIRITUALIS")
-	
-	 }
+	 {  
+		 
+		 room_goto(destino);
+		 global.comecar = true;
+	   
+	 }; 
+	 
+	 
