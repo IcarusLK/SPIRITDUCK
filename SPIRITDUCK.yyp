@@ -34,7 +34,9 @@
   },
   "name":"SPIRITDUCK",
   "resources":[
+    {"id":{"name":"fnt_01","path":"fonts/fnt_01/fnt_01.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"obj_desenha_UI","path":"objects/obj_desenha_UI/obj_desenha_UI.yy",},},
     {"id":{"name":"obj_gera_espirito","path":"objects/obj_gera_espirito/obj_gera_espirito.yy",},},
     {"id":{"name":"obj_gerador_left","path":"objects/obj_gerador_left/obj_gerador_left.yy",},},
     {"id":{"name":"obj_gerador_right","path":"objects/obj_gerador_right/obj_gerador_right.yy",},},
@@ -51,6 +53,7 @@
     {"id":{"name":"obj_timer_room01","path":"objects/obj_timer_room01/obj_timer_room01.yy",},},
     {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
     {"id":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
+    {"id":{"name":"rm_03","path":"rooms/rm_03/rm_03.yy",},},
     {"id":{"name":"funcs","path":"scripts/funcs/funcs.yy",},},
     {"id":{"name":"globals","path":"scripts/globals/globals.yy",},},
     {"id":{"name":"spr_bala_teste","path":"sprites/spr_bala_teste/spr_bala_teste.yy",},},
@@ -71,6 +74,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
     {"roomId":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
+    {"roomId":{"name":"rm_03","path":"rooms/rm_03/rm_03.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

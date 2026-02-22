@@ -5,7 +5,7 @@
 // vendo quando é preciso começar, e contando o timer do player!
          if (global.comecar == true and instance_exists(obj_player))
 		{
-			timer -= 0.05
+			timer -= 0.02
 			
 		};
 		

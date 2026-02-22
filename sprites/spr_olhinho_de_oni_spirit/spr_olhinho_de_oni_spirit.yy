@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"SPIRITDUCK",
-    "path":"SPIRITDUCK.yyp",
+    "name":"SPRITES03 INIMIGOS",
+    "path":"folders/SPRITES/SPRITES03 INIMIGOS.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

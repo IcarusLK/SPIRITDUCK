@@ -10,8 +10,8 @@
   "name":"obj_oni_spirit",
   "overriddenProperties":[],
   "parent":{
-    "name":"SPIRITDUCK",
-    "path":"SPIRITDUCK.yyp",
+    "name":"OBJECTS 03 Inimigos",
+    "path":"folders/OBJECTS/OBJECTS 03 Inimigos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

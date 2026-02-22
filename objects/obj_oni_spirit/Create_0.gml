@@ -15,10 +15,10 @@ meu_alvo           = obj_player;
 
 
 //variaveis para o segundo estado
-tempo_para_tiro        = choose(15,17)
+tempo_para_tiro        = choose(50,45)
 timer_tempo_tiro       = 0;
 atirar                 = true;
-tempo_para_voltar_tiro = 37;
+tempo_para_voltar_tiro = 45;
 timer_para_voltar_tiro = 0;
 
 x_escolhe = choose(64,352)
@@ -48,7 +48,7 @@ olho_de_oni = function()
 // se posso atirar eu atiro	 
  if ( atirar and instance_exists(meu_alvo)) 
    {
-	   if  ( (distance_to_object(meu_alvo)) <= 130)
+	   if  ( (distance_to_object(meu_alvo)) <= 150)
 	   {
 	   
 	 tiro = instance_create_layer(x,y+5,"Inst_Inimigos",obj_olhos_de_oni_tiro)

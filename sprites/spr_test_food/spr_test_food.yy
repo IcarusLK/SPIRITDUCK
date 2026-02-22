@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"SPIRITDUCK",
-    "path":"SPIRITDUCK.yyp",
+    "name":"SPRITES02 TESTES E AUX",
+    "path":"folders/SPRITES/SPRITES02 TESTES E AUX.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

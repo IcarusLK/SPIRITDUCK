@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gera_espirito",
+  "%Name":"obj_desenha_UI",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gera_espirito",
+  "name":"obj_desenha_UI",
   "overriddenProperties":[],
   "parent":{
-    "name":"GERADORES",
-    "path":"folders/OBJECTS/GERADORES.yy",
+    "name":"SPIRITDUCK",
+    "path":"SPIRITDUCK.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

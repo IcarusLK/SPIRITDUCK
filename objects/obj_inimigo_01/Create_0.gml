@@ -13,6 +13,7 @@ velocidade_tiro    = choose(2,2,2,3)
 meu_alvo           = obj_player;
 
 
+
 //variaveis para o segundo estado
 tempo_para_tiro        = choose(10,15)
 timer_tempo_tiro       = 0;
@@ -47,7 +48,7 @@ olho_de_oni = function()
 // se posso atirar eu atiro	 
  if ( atirar and instance_exists(meu_alvo)) 
    {
-	   if  ( (distance_to_object(meu_alvo)) <= 100)
+	   if  ( (distance_to_object(meu_alvo)) <= 150)
 	   {
 	   
 	 tiro = instance_create_layer(x,y+5,"Inst_Inimigos",obj_olhos_de_oni_tiro)
@@ -115,8 +116,12 @@ machina = function()
 		  if (timer >= tempo_para_atacar)
 		  {
 			  timer  = 0;
+			  
+    if  ( (distance_to_object(meu_alvo)) <= 150)
+			{  
 			  estado = "attack";
 			  //show_message("CARGA!");
+			}
 			  
 		  }; 
 		  
@@ -208,7 +213,39 @@ morrendo = function()
 }
 
 
+efeito_sobe_desce = function()
+{
+	
+	switch(altura)
+	{
+		case "desce" : 
+	
+	    y = lerp(y,ystart + 10,0.02)
+		
+	     if ( y >= ystart + 9)
+		 {
+			 altura = "sobe"
+			
+		 }
+		 break; 
+		 
+		 case "sobe" :
 
+//voltando para cima 
+		 y = lerp(y,ystart - 9,0.02)
+		 
+		 if ( y <= ystart - 5)
+		 {
+			 altura = "desce";
+		 }
+		 
+		 
+		 break; 
+	    	
+    }//close switch
+
+
+}// fecha func
 
 
 
